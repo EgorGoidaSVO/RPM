@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="Eugb7PPYOdj4SuEvGJ5o">
+    <mxGraphModel dx="2372" dy="1315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1XcQSZIwA5MDDgknelTE-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Начало теста" vertex="1">
+          <mxGeometry height="54" width="157" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="setUp: создать&#xa;VariableStorage и Evaluator" vertex="1">
+          <mxGeometry height="78" width="259" x="99" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Подготовить тестовое выражение" vertex="1">
+          <mxGeometry height="78" width="260" x="99" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Запустить Lexer → Parser → Evaluator" vertex="1">
+          <mxGeometry height="78" width="260" x="99" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-5" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Результат&#xa;совпадает с ожидаемым?" vertex="1">
+          <mxGeometry height="265" width="265" x="96" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Тест пройден ✓" vertex="1">
+          <mxGeometry height="54" width="178" x="20" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Тест не пройден ✗" vertex="1">
+          <mxGeometry height="54" width="201" x="248" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Завершить" vertex="1">
+          <mxGeometry height="54" width="139" x="159" y="951" as="geometry" />
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-9" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-10" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-11" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-12" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-13" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-6" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-14" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-7" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-15" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.05;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="926" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1XcQSZIwA5MDDgknelTE-16" edge="1" parent="1" source="1XcQSZIwA5MDDgknelTE-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.95;entryY=0;rounded=0;" target="1XcQSZIwA5MDDgknelTE-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="926" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

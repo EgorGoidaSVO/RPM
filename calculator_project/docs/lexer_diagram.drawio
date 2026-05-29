@@ -1,0 +1,227 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="2cFNGGmZ0sFNN4wtR2gp">
+    <mxGraphModel dx="4406" dy="2443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wqyayW5Qzh84rQO-NLil-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Начало" vertex="1">
+          <mxGeometry height="54" width="113" x="1134" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Исходная строка" vertex="1">
+          <mxGeometry height="54" width="184" x="1099" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Есть символы?" vertex="1">
+          <mxGeometry height="162" width="162" x="1110" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-4" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Определить тип символа" vertex="1">
+          <mxGeometry height="240" width="240" x="1071" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Добавить токен EOF" vertex="1">
+          <mxGeometry height="54" width="209" x="31" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Конец, вернуть токены" vertex="1">
+          <mxGeometry height="54" width="231" x="20" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Читать число" vertex="1">
+          <mxGeometry height="54" width="158" x="301" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен NUMBER" vertex="1">
+          <mxGeometry height="54" width="228" x="323" y="992" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Читать слово" vertex="1">
+          <mxGeometry height="54" width="157" x="1622" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-10" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Ключевое слово?" vertex="1">
+          <mxGeometry height="180" width="180" x="1610" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен команды&#xa;history/vars/clear/exit" vertex="1">
+          <mxGeometry height="78" width="235" x="1795" y="1183" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен VARIABLE" vertex="1">
+          <mxGeometry height="54" width="236" x="2165" y="1195" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен оператора" vertex="1">
+          <mxGeometry height="54" width="246" x="570" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен скобки" vertex="1">
+          <mxGeometry height="54" width="221" x="866" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Создать токен ASSIGN" vertex="1">
+          <mxGeometry height="54" width="220" x="1158" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Пропустить" vertex="1">
+          <mxGeometry height="54" width="144" x="1428" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Ошибка: неизвестный символ" vertex="1">
+          <mxGeometry height="78" width="260" x="1829" y="801" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Конец с ошибкой" vertex="1">
+          <mxGeometry height="54" width="187" x="1865" y="992" as="geometry" />
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-19" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-20" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-21" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-4" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-22" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.55;entryX=0.5;entryY=0.01;rounded=0;" target="wqyayW5Qzh84rQO-NLil-5" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-23" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-24" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-7" value="Цифра или точка">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-25" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.44;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-26" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=0;entryX=0;entryY=0.58;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="904" />
+              <mxPoint x="494" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-27" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-9" value="Буква или _">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-28" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-29" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.04;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-11" value="Да">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-30" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.64;entryX=0.31;entryY=0.01;rounded=0;" target="wqyayW5Qzh84rQO-NLil-12" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2157" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-31" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=0;entryX=1;entryY=0.56;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2124" y="1146" />
+              <mxPoint x="2124" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-32" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=0.01;entryX=1;entryY=0.55;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2300" y="1146" />
+              <mxPoint x="2300" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-33" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.65;entryX=0.42;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-13" value="плюс / минус / умножить / разделить">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-34" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=0;entryX=0;entryY=0.64;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="774" y="752" />
+              <mxPoint x="774" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-35" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.38;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-14" value="открыть скобку / закрыть скобку">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="894" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-36" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0;entryX=0;entryY=0.88;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1036" y="752" />
+              <mxPoint x="1036" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-37" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.39;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-15" value="равно">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-38" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=1;entryY=0.84;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="752" />
+              <mxPoint x="1360" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-39" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.3;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-16" value="Пробел">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1408" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-40" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-16" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=1;entryY=0.65;rounded=0;" target="wqyayW5Qzh84rQO-NLil-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1568" y="752" />
+              <mxPoint x="1568" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-41" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-17" value="Другой символ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1959" y="752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wqyayW5Qzh84rQO-NLil-42" edge="1" parent="1" source="wqyayW5Qzh84rQO-NLil-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="wqyayW5Qzh84rQO-NLil-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
